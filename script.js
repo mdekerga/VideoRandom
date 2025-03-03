@@ -2,7 +2,7 @@ const apiKey = '';
 
 function getRandomYoutubeVideo(){
 
-    const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=random&type=video&key=${apiKey}`;
+    const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&type=video&key=${apiKey}`;
 
     fetch(url)
     .then(response => response.json())
