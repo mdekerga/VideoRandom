@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: bebas;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+
+h1{
+    font-size: 36px;
+    font-family: bebas;
+    color : white;
+}
+
+
+body{
+    background-color: #13161c;
+}
+
+.button{
+    margin-top: 3%;
+    cursor: pointer;
+    border:none;
+    border-radius: 15%;
+    color : white;
+    background-color: red;
+    font-family: bebas;
+    font-size: 24px;
+}
+
+
+
+#video-frame{
+    border-radius: 5%;
+    border: white 2px solid;
+}
+
+
+.content{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
